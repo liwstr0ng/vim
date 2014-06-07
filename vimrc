@@ -24,6 +24,17 @@ set ruler
 colorscheme desert
 let g:tlist_javascript_settings = 'javascript;s:string;a:array;o:object;f:function'
 let g:NERDTreeDirArrows=0
+
+" cygwin terminal cursor config
+" let &t_ti.="\e[1 q"
+" let &t_SI.="\e[5 q"
+" let &t_EI.="\e[1 q"
+" let &t_te.="\e[0 q"
+
+" fix cygwin save readonly file confirm
+" cabbrev w w!
+
+" hotkey
 map <silent> <F10> :tabp<CR>
 map <silent> <F12> :tabn<CR>
 map <silent> <F4> :JSHint<CR>
@@ -52,7 +63,7 @@ Bundle 'gmarik/vundle'
 
 " My Vundle config
 
-" PowerLine插件 状态栏增强展示
+" PowerLine
 Bundle 'Lokaltog/vim-powerline'
 set laststatus=2
 set t_Co=256
