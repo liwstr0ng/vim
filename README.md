@@ -23,6 +23,18 @@ VIM配置
 ### 已安装插件列表
 
 - PowerLine 
-- vim-markdown 
 - NERD Tree
 - emment
+- vim-coffee-script
+
+### 已绑定的快捷键
+
+- **F10**：切换至左边的tab
+- **F12**：切换至右边的tab
+- **F2**：重绘屏幕，主要是应对清空编译coffee文件错误消息的问题
+- **Ctrl+←**：将当前tab向左移动
+- **Ctrl+→**：将当前tab向右移动
+
+### 注意事项
+
+- coffeescript编译支持请确认已安装`coffeescript`
