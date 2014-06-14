@@ -67,7 +67,7 @@ let g:NERDTreeDirArrows=0
 " emment
 Bundle "mattn/emmet-vim"
 
-" elable emmet in different mode
+" enable emmet in different mode
 let g:user_emmet_mode='n'    "only enable normal mode functions.
 let g:user_emmet_mode='inv'  "enable all functions, which is equal to
 let g:user_emmet_mode='a'    "enable all function in all mode.
@@ -81,4 +81,4 @@ Bundle 'kchmck/vim-coffee-script'
 syntax on
 filetype plugin indent on
 autocmd BufNewFile,BufReadPost *.coffee setl foldmethod=indent
-autocmd BufWritePost *.coffee silent make!
+" autocmd BufWritePost *.coffee silent make!
