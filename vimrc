@@ -81,4 +81,4 @@ Bundle 'kchmck/vim-coffee-script'
 syntax on
 filetype plugin indent on
 autocmd BufNewFile,BufReadPost *.coffee setl foldmethod=indent
-" autocmd BufWritePost *.coffee silent make!
+cabbrev coffee autocmd BufWritePost *.coffee silent make!
