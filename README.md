@@ -29,13 +29,14 @@ VIM配置
 
 ### 已绑定的快捷键
 
+- **F2**：重绘屏幕，主要是应对清空编译coffee文件错误消息的问题
+- **F4**：将coffee文件编译为Js文件
 - **F8**：切换至左边的tab
 - **F10**：切换至右边的tab
-- **F2**：重绘屏幕，主要是应对清空编译coffee文件错误消息的问题
 - **Ctrl+left**：将当前tab向左移动
 - **Ctrl+right**：将当前tab向右移动
 - **(Ctrl+E) then (,)**：调用emmet，生成HTML代码
 
 ### 注意事项
 
-- coffeescript编译支持请确认已安装coffeescript
+- coffeescript编译支持请确认已安装coffeescript编译支持

@@ -33,9 +33,10 @@ colorscheme desert
 " cabbrev w w!
 
 " hotkey
+map <silent> <F2> :redraw!<CR>
+map <silent> <F4> :make<CR>
 map <silent> <F8> :tabp<CR>
 map <silent> <F10> :tabn<CR>
-map <silent> <F2> :redraw!<CR>
 nnoremap <silent> <C-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
 nnoremap <silent> <C-Right> :execute 'silent! tabmove ' . tabpagenr()<CR>
 
@@ -81,4 +82,3 @@ Bundle 'kchmck/vim-coffee-script'
 syntax on
 filetype plugin indent on
 autocmd BufNewFile,BufReadPost *.coffee setl foldmethod=indent
-cabbrev coffee autocmd BufWritePost *.coffee silent make!
