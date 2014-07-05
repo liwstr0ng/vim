@@ -65,7 +65,7 @@ Bundle "scrooloose/nerdtree"
 
 let g:NERDTreeDirArrows=0
 
-" emment
+" emmet
 Bundle "mattn/emmet-vim"
 
 " enable emmet in different mode

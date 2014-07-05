@@ -24,7 +24,7 @@ VIM配置
 
 - PowerLine 
 - NERD Tree
-- emment
+- emmet
 - vim-coffee-script
 
 ### 已绑定的快捷键
